@@ -1,0 +1,19 @@
+{
+  "name": "smithey-financial-website-main",
+  "version": "1.0.0",
+  "main": "Main/backend/email_server.js",
+  "scripts": {
+    "start": "node Main/backend/email_server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0"
+  }
+}
